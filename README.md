@@ -5,9 +5,23 @@ FairOD is a fairness-aware outlier detector that has the following desirable pro
 ## Resources
 * Paper: [FairOD](paper/fairOD-aies-21.pdf)
 * Foils: [Deck](slides/fairod-slides.pdf)
+* Supplementary: [Appendix](appendix/appendix.pdf)
+
+
+#### Training using your own dataset
+1. Create data directory containing three files: X (feature representation), y(ground-truth lables), and S (protected attribute values)
+2. See fairod/run.py for demo config 
+
+
+#### Installation
+You can install the trainer module using the following.
+```
+pip install git+https://github.com/Shubhranshu-Shekhar/fairOD.git
+``` 
+
 
 ## Cite this work:
-If you find our work useful, you may cite our work:
+If you find our work useful, please cite our work:
 
 ```
 @inproceedings{shekhar2021fairod,
