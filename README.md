@@ -32,6 +32,6 @@ If you find our work useful, please cite our work:
 }
 ```
 
-###### Acknoledgement
+###### Acknowledgement
 We thank Dimitris Berberidis for helping with the early development
 of the ideas and the code base.
